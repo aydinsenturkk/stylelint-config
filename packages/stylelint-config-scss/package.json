@@ -1,0 +1,35 @@
+{
+  "name": "@aydinsenturkk/stylelint-config-scss",
+  "version": "1.0.0",
+  "description": "Stylelint config for SCSS",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "scss",
+    "css",
+    "aydinsenturkk"
+  ],
+  "author": "Aydin Senturk <hello@aydinsenturk.com>",
+  "homepage": "https://github.com/aydinsenturkk/stylelint-config/tree/master/packages/stylelint-config-scss#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydinsenturkk/stylelint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/aydinsenturkk/stylelint-config/issues"
+  },
+  "dependencies": {
+    "@aydinsenturkk/stylelint-config-base": "^1.0.0",
+    "stylelint-declaration-strict-value": "^1.1.8",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.16.1"
+  }
+}
